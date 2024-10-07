@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+#container {
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+.input-area {
+    display: flex;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    font-size: 18px;
+}
+li::before {
+    content: "\2610";
+    margin-left: 4px;
+    width: 22px;
+    height: 20px;
+}
+.checked::before {
+    content: "\2611";
+    margin-left: 4px;
+    width: 22px;
+    height: 20px;
+}
+.delete-button {
+    background-color: red;
+    color: white;
+    float: right;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
